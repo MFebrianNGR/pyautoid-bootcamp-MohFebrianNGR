@@ -12,7 +12,9 @@ url_list = ['https://noobtest.id','https://erzaf.com/',
 
 for i in url_list :
     driver.get(i)
-    print(driver.current_url,'-', driver.title)
+    Title = driver.title
+    Name = i.replace('https://','')
+    print(Name,'-',Title)
 
 driver.close()
     
