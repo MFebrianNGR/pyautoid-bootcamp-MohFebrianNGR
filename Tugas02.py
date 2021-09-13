@@ -7,7 +7,7 @@ driver.maximize_window()
 driver.get('https://demoqa.com/webtables')
 
 Input_Data = [
-            ['Amsal','Salom', 'uno@noobtest.id', '28', '5000', 'IT Support'],
+            ['Amsal','Salom', 'amsalom@noobtest.id', '28', '5000', 'IT Support'],
             ['Dita','Karang', 'ditaka@noobtest.id', '23', '4500', 'IT Admin'],
             ['Febrian','Nur', 'febrianu@noobtest.id', '24', '6000', 'IT Support'],
 ]
